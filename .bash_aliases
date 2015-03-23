@@ -9,4 +9,4 @@ alias sy_entity="sy_console generate:doctrine:entity"
 alias sy_mig_d="sy_console doctrine:migrations:diff"
 alias sy_mig_m="sy_console doctrine:migrations:migrate"
 alias sy_mig_s="sy_console doctrine:migrations:status"
-
+alias less="less -R"
