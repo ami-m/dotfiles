@@ -83,6 +83,11 @@
  if [ -f "${HOME}/.bash_aliases" ]; then
    source "${HOME}/.bash_aliases"
  fi
+
+# Some people use a different file for aliases
+ if [ -f "${HOME}/.bash_aliases_local" ]; then
+   source "${HOME}/.bash_aliases_local"
+ fi
 #
 # Some example alias instructions
 # If these are enabled they will be used instead of any instructions
