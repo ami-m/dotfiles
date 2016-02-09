@@ -196,3 +196,4 @@
 # }
 # 
 # alias cd=cd_func
+export VISUAL=vim
