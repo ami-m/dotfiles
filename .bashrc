@@ -202,3 +202,9 @@
 # 
 # alias cd=cd_func
 export VISUAL=vim
+export GOPATH=$(go env GOPATH)
+source ~/git-flow-completion/git-flow-completion.bash
+
+. $HOME/.asdf/asdf.sh
+
+. $HOME/.asdf/completions/asdf.bash

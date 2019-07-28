@@ -58,3 +58,4 @@ if version >= 500
   highlight Special gui=NONE guibg=grey95
 
 endif
+execute pathogen#infect()
